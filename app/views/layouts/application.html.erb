@@ -8,10 +8,14 @@
 </head>
 <body>
 
-      <ul>
-        <li><%= link_to "Bloccit", welcome_index_path %></li>
-        <li><%= link_to "About", welcome_about_path %></li>
-      </ul>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+	  	<ul class="nav navbar-nav">
+		    <li><%= link_to "My Language", welcome_index_path %></li>
+		    <li><%= link_to "About", welcome_about_path %></li>
+	    </ul>
+	  </div>
+	</nav>
 
 	<%= yield %>
 
