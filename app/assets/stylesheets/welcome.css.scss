@@ -5,9 +5,23 @@ h1#index-title {
 }
 
 div#index-well {
-	margin: 25px 75px 75px 75px;
+	margin: 25px 75px 25px 75px;
 }
 
 div#about-well {
-	margin: 25px 75px 75px 75px;
+	margin: 25px 75px 25px 75px;
+}
+
+.main-sign-in {
+	width: 200px;
+	text-align: center;
+}
+
+.main-sign-up {
+	width: 200px;
+}
+
+.sign-buttons-container {
+  text-align: center;
+  font-size: 50px;
 }
