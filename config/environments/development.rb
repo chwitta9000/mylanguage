@@ -27,6 +27,9 @@ Mylanguage::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  # Override Action Mailer's 'silent errors' in development
+  config.action_mailer.raise_delivery_errors = true
+
   # Added for devise
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
